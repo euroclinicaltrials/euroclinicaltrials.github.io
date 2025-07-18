@@ -1,9 +1,9 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
   padding: 0;
-  background: #f9f9f9;
-  color: #333;
+  background: #ffffff;
+  color: #222;
 }
 .container {
   width: 90%;
@@ -12,14 +12,18 @@ body {
   padding: 20px;
 }
 header {
-  background: #003366;
+  background: #002b55;
   color: white;
   padding: 20px 0;
+}
+header h1 {
+  margin: 0;
 }
 nav ul {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
 }
 nav ul li a {
@@ -27,22 +31,26 @@ nav ul li a {
   text-decoration: none;
 }
 .hero {
-  background: #e6f0ff;
+  background: #f0f4fa;
   padding: 40px 20px;
   text-align: center;
 }
 .cta-button {
   display: inline-block;
-  padding: 10px 20px;
-  background: #0066cc;
+  padding: 10px 25px;
+  background: #004b99;
   color: white;
   text-decoration: none;
+  border-radius: 5px;
   margin-top: 20px;
 }
+.features {
+  padding: 30px 0;
+}
 footer {
-  background: #003366;
+  background: #002b55;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   margin-top: 40px;
 }
